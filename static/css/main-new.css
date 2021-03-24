@@ -1,0 +1,134 @@
+/*å¯¼èˆª*/
+#mainHeader{
+    border-bottom:none;
+}
+#nav li.active, #nav li:hover{
+    background-color:#79171c;
+    border-radius:0;
+}
+#nav li:hover a{
+    color:#fff;
+}
+.new-logo{
+    position: absolute;
+    left:50%;
+    margin-left:-565px;
+    top:0;
+    height:100%;
+}
+#nav{
+    margin:55px 15px 15px 15px;
+}
+header{
+    min-width:1130px;
+}
+/*é¦–é¡µ*/
+.enter_cnt{
+    height:60px;
+    box-sizing:border-box;
+    border:none;
+    background-color:#7e0011;
+    border-radius:0;
+    padding:5px;
+}
+.enter_cnt span{
+    border:1px solid #fff;
+    width:200px;
+    box-sizing: border-box;
+}
+.pagiNation a{
+    width:35px;
+    height:22px;
+    border-radius:0;
+    padding:0;
+    border:none;
+}
+
+/*å…¨æ™¯*/
+.panorama-iframe-box{
+    font-size:0;
+}
+/*å…¶å®ƒå†…å®¹é¡µ*/
+.title-ld{
+    background-color:#79171c;
+}
+.title-1{
+    font-size: 16px;
+    padding:10px 10px;
+    box-sizing: border-box;
+}
+.text-ld p, .text-ld{
+    font-size: 16px;
+    text-align: justify;
+}
+.tablebox .text-ld td{
+    font-size: 16px;
+}
+.banner-ld img{
+    display: block;
+}
+/*å³ä¾§æ»šåŠ¨èœå•*/
+#menudiv{
+    /*margin-top:-60px;*/
+    right:40px;
+    z-index:5;
+    width:98px;
+    bottom:140px;
+    top:auto;
+}
+#menudiv ul{
+
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:1px solid #9b806a;
+}
+#menudiv ul li a{
+    background-color:transparent;
+    color:#000;
+    height:40px;
+    line-height: 40px;
+    font-size:14px;
+    text-align: left;
+    padding-left:10px;
+    box-sizing: border-box;
+    width:98px;
+    position: relative;
+}
+#menudiv ul li a:before{
+    position: absolute;
+    left:-3px;
+    top:50%;
+    margin-top:-2px;
+    content:"";
+    width:5px;
+    height:5px;
+    border-radius: 100%;
+    background-color:#b1b0b0;
+}
+#menudiv ul li a.cur,#menudiv ul li a:hover{
+    color:#79171c;
+    background-color:transparent;
+}
+#menudiv ul li a.cur:after{
+    position: absolute;
+    left:-18px;
+    top:50%;
+    margin-top:-9px;
+    width:29px;
+    height:22px;
+    content:"";
+}
+.to-top{
+    width:100%;
+    height:25px;
+    line-height: 25px;
+    font-size:14px;
+    color:#fff;
+    background-color:#9b806a;
+    text-align:center;
+    display:block;
+}
+.to-top span{
+    font-size:18px;
+    padding-left:4px;
+}

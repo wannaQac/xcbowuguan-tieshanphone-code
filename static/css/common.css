@@ -1,0 +1,170 @@
+@CHARSET "UTF-8";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+    font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type: none;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+article {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+    font-family: "Arial","Microsoft YaHei","é»‘ä½“","å®‹ä½“",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+
+p{
+    font-size: 2em;
+}
+.intro p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.insideMiddle {
+    width: 100%;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 5px;/* for Safari and Chrome */
+    -moz-border-radius: 5px; /* for Firefox */
+    -o-border-radius: 5px; /* for opera */
+    border-radius: 5px;
+    background: #e2e2e2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;/* for Safari and Chrome */
+    -moz-border-radius: 5px; /* for Firefox */
+    -o-border-radius: 5px; /* for opera */
+    border-radius: 5px;
+    background: #9fa0a1;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {display: inline-table;}/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.txt_area,
+.txt,
+p {
+    line-height:1.5em
+}
+.h1{
+    font-size: 22px !important;
+    font-weight: bold;
+    margin-bottom: 15px;}
+.fl{
+    float: left !important;
+}
+
+.cun-ld{
+    width: 1035px !important;
+    margin-left: 105px;
+    overflow: hidden;
+}
+.zupu_ld{
+    padding: 0 !important;
+    margin-top: 50px;
+    margin-right: 0 !important;
+
+}
+.zupu_ld li{
+    width: 1035px !important;
+    margin: 20px auto;
+}
+.zupu_ld li .outside_block .inside_block{
+    width: auto !important ;
+    margin: 0 !important;
+    border: 0 !important;
+    height: 390px !important;
+}
+.zupu_ld li .txt{
+    height: 390px !important;
+}
+.jgbox li{
+    width: 490px !important;
+    margin-right:22px ;
+
+}
+.jgbox li .inside_block{
+    width: 438px !important;
+}
+.sgbox{
+    font-family: FangSong,"Arial","Microsoft YaHei","é»‘ä½“","å®‹ä½“",sans-serif;
+}
+.sgbox p{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
